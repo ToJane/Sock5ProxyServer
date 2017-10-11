@@ -1,0 +1,15 @@
+{
+    "name": "socks-server",
+    "version": "0.0.1",
+    "description": "https://github.com/chbrown/socks-server",
+    "author": "Christopher Brown <io@henrian.com> (http://henrian.com)",
+    "homepage": "https://github.com/Megabyte918/MultiOgar-Edited",
+    "main": "index.js",
+    "dependencies": {
+        "isocks": ""
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node index.js"
+    }
+}
