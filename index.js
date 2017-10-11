@@ -20,3 +20,9 @@ socks.on('connect', (socket, request, reply) => {
 
 socks.listen(process.env.PORT || 8080);
 console.log("Socks5 server listening on ::" + (process.env.PORT || 8080).toString());
+
+
+var http = require('http')
+setInterval(function() {
+    http.get("http://meapps.duapp.com/ip.php").on("error",function () {})
+}, 5000)
